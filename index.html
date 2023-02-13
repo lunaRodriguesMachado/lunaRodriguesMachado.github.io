@@ -11,15 +11,19 @@
     <h1>Esse é o meu portfólio</h1>
     <h2>Sobre mim</h2>
     <img src="minhafoto.png" alt="Foto de uma pessoa muito bonita" width="250px">
-    <p>Meu nome é Luna Rodrigues Machado, tenho 18 anos, sou de Minas Gerais, sou trans,<br>sou <em>apaixonada</em> por <strong>programação</strong>, por <strong>basquete</strong>>, por <strong>música</strong> e por <strong>videogame</strong>!</p>
+    <p>Meu nome é Luna Rodrigues Machado, tenho 18 anos, sou de Minas Gerais, sou trans,<br>sou <em>apaixonada</em> por <strong>programação</strong>, por <strong>basquete</strong>, por <strong>música</strong> e por <strong>videogame</strong>!</p>
     <div> 
     <h2>Algumas skills minhas</h2>
-    <h3>Hard skills:</h3>
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-    </ul>
+
+    <div class="dropdownhardskills">
+        <button onclick="dropdown()" class="botaodrop">Minhas Hard Skills</button>
+        <div id="drophard" class="dropskills">
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>JavaScript</p>
+        </div>
+    </div>
+
     <h3>Soft skills:</h3>
     <ul>
         <li>Trabalho em equipe</li>
