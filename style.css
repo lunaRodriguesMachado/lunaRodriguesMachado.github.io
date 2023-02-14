@@ -5,3 +5,15 @@
     padding: 16px;
     font-size: 15px;
 }
+
+.dropskills {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.3);
+
+}
+
+.aparecer {display: block;}
+
