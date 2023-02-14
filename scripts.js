@@ -1,5 +1,5 @@
 function dropdown() {
-    document.getElementById("drophard").classList.toggle("aparecer")
+    document.getElementById("skills").classList.toggle("aparecer")
 }
 
 window.onclick = function(event) {
