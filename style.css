@@ -1,6 +1,7 @@
 /* Body */
 body {
-    background-image: ;
+    background-image: url(./imagens/fundo.jpg);
+    font-size: 20px;
 }
 
 
@@ -8,8 +9,8 @@ body {
 .botaodrop {
     background-color: #bbbbbb;
     color: black;
-    padding: 16px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 20px;
 }
 .botaodrop:hover {
     background-color: #acacac;
