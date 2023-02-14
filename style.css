@@ -1,19 +1,48 @@
+/* Body */
+body {
+    background-image: ;
+}
+
+
 /* Botão de dropdown */
 .botaodrop {
-    background-color: lightgray;
+    background-color: #bbbbbb;
     color: black;
     padding: 16px;
     font-size: 15px;
+}
+.botaodrop:hover {
+    background-color: #acacac;
+}
+
+.dropdownskills {
+    position: relative;
+    display: inline-block;
 }
 
 .dropskills {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 175px;
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.3);
 
 }
 
 .aparecer {display: block;}
 
+/* Aside */
+aside#lateral {
+    position: absolute;
+    right: 40px;
+    top: 25px;
+}
+
+.recomendacoes {
+    text-decoration: none;
+    color: #000;
+}
+
+div#itens {
+    text-align: right;
+}
